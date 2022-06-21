@@ -41,10 +41,8 @@ export default defineComponent({
 
 		onMounted(() => {
 			if (isUserLocationReady.value) return initMap();
-
-			console.log("Aún no se encuentran los datos de ubicación");
 		});
-
+		
 		watch(isUserLocationReady, () => {
 			if (isUserLocationReady.value) return initMap();
 		});
