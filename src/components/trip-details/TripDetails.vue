@@ -32,7 +32,7 @@ export default defineComponent({
 	right: 20px;
 	padding: 10px;
 	position: fixed;
-	width: 250px;
+	min-width: 250px;
 }
 strong {
 	color: #42b983;
