@@ -1,4 +1,6 @@
-# 10-map-app
+# Map application
+
+Take a look <a href="https://mapbox-sample.netlify.app/#/" target="_blank">here!</a>
 
 ## Project setup
 ```
